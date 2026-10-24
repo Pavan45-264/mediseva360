@@ -1,0 +1,72 @@
+# Dependencies
+node_modules/
+*/node_modules/
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Production builds
+dist/
+*/dist/
+build/
+*/build/
+
+# Vercel & Deployments
+.vercel/
+*/.vercel/
+
+# Environment variables
+.env
+.env*.local
+*.env
+
+# IDE & OS files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Android / Mobile build outputs
+*/android/app/build/
+*/android/.gradle/
+
+# Heavy local toolchains & release binaries
+tools/
+release-builds/
+*.zip
+*.tar.gz
+*.apk
+*.aab
+
