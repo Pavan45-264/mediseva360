@@ -1,0 +1,28 @@
+{
+  "name": "mediseva360",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MEDI SEVA 360 — One Platform. Every Hospital. Smarter Healthcare.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "healthcare",
+    "hospital-management",
+    "opd-queue",
+    "abdm",
+    "telemedicine",
+    "patient-portal",
+    "pwa"
+  ],
+  "author": "Pavan",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.4",
+    "vite": "^5.2.11"
+  }
+}

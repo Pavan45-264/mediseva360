@@ -6,42 +6,13 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-ENV/
-build/
-develop-eggs/
+# Production / Temp builds
 dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Production builds
-dist/
-*/dist/
 build/
-*/build/
-
-# Vercel & Deployments
 .vercel/
-*/.vercel/
+scratch/
 
-# Environment variables
+# Environment variables & secrets
 .env
 .env*.local
 *.env
@@ -49,18 +20,9 @@ build/
 # IDE & OS files
 .vscode/
 .idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
 .DS_Store
 Thumbs.db
 desktop.ini
-
-# Android / Mobile build outputs
-*/android/app/build/
-*/android/.gradle/
 
 # Heavy local toolchains & release binaries
 tools/
@@ -70,3 +32,10 @@ release-builds/
 *.apk
 *.aab
 
+# Legacy project folders (excluded from mediseva360 web repo)
+backend/
+janaseva-ai/
+frontend/
+cyberstorm.html
+test.json
+HACKATHON_PRESENTATION_KIT.md
